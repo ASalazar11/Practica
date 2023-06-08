@@ -1,45 +1,54 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
 <html>
 
 <head>
-    <title>TechShop</title>
+
     <meta charset="UTF-8">
     <link href="Css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="Css/menu.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <h1>TechShopv </h1>
-    </header>
-    <nav>
-        <a href="index.html">&triangleleft;</a>
-        <a href="Ejemplo 2.html">Home</a>
-        <a href="Ejemplo 3.html">&triangleright;</a>
-    </nav>
+    <header class="header">
+        <nav class="nav">
+            <a class="nav-link logo" href="Principal.html">Eladio Carrion</a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Bio.html">Bio</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Videos.html">Videos</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iFrameLinks.html">IFrame</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Formulario.html">Formulario</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Imagenes.html">Imagenes</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Principal.html">Principal</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Canciones.html">Tablas</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Musica.html">Musica</a></li>
+            </ul>
 
+        </nav>
+    </header>
     <aside>
-        <h2>Audios</h2>
-        <hr>
-        <h3>Uso de Formularios en una Pagina</h3>
+        <h2>Formulario</h2>
+
+
     </aside>
     <section>
         <article>
-            <form action="/usuario/registro" method="post">
-                Usuario:<input type="text" name="Username" value="" size="20" /><br/>
-                passwork<input type="password" name="password" value="" size="10" /><br/>
-                nombre<input type="text" name="Nombre" value="" size="35" /><br/>
-                edad<input type="number" name="edad" value="" /><br/>
-                FechaRegistro<input type="date" name="fRegistro" value="" /><br/>
+            <form action="/usuario/informacion" method="post">
+                Album Favorito:<input type="text" name="Album Favorito" value="" size="20" /><br />
+                <br />
+                Cancion Favorita<input type="text" name="Cancion Favorita" value="" size="10" /><br />
+                <br />
+                nombre<input type="text" name="Nombre" value="" size="35" /><br />
+                <br />
+                edad<input type="number" name="edad" value="" /><br />
+                <br />
+                Fecha de Nacimiento<input type="date" name="Fecha de Nacimiento" value="" /><br />
+                <br />
                 <input type="submit" value="Ingresar" />
             </form>
         </article>
     </section>
-    <footer>
-        <p>Derechos Reservados &copy;</p>
+    <footer class="pie">
+        <p>Derechos Reservados Por Alonsillo &copy;</p>
     </footer>
 </body>
 
